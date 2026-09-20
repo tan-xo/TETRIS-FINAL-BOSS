@@ -1,90 +1,86 @@
-# 🎮 Tetris
+# 🎮 TETRIS — FINAL BOSS
 
-A browser-based Tetris game built with **HTML, CSS, and JavaScript**.
+A classic Tetris game built entirely with **HTML, CSS, and JavaScript**.
 
-Play directly in your browser — no installation required.
+Play it directly in your browser — no installation required.
+
+## 🕹️ Play Now
+
+👉 **[Play TETRIS — FINAL BOSS](https://tan-xo.github.io/TETRIS-FINAL-BOSS/)**
+
+---
 
 ## ✨ Features
 
-* Classic 10×20 Tetris board
-* 7 standard Tetromino pieces
-* Piece rotation
-* Soft drop and hard drop
-* Hold piece system
-* Ghost piece
-* Level-based progression
-* Increasing difficulty
-* Garbage rows
-* Rising garbage mechanics
-* Score tracking
-* Best-score persistence using `localStorage`
-* Keyboard controls
-* Responsive canvas-based UI
-* Works directly in modern browsers
-* No frameworks or external dependencies
+- 🧱 Classic Tetris gameplay
+- 🎲 Random Tetromino generation
+- 🔄 Piece rotation
+- ⬅️➡️ Horizontal movement
+- ⬇️ Soft drop
+- ⚡ Hard drop
+- 👻 Ghost piece
+- 📦 Hold piece system
+- 📈 Progressive levels
+- 🏆 Score tracking
+- 💾 Best score persistence
+- ⏸️ Pause system
+- 🔁 Restart functionality
+- 🎵 Game audio and sound effects
+- 📱 Browser-based gameplay
+- 🎨 Custom game interface
+
+---
 
 ## 🎮 Controls
 
-| Key   | Action                   |
-| ----- | ------------------------ |
-| ← / → | Move piece               |
-| ↓     | Soft drop                |
-| ↑     | Rotate                   |
-| Z     | Rotate counter-clockwise |
-| Space | Hard drop                |
-| C     | Hold piece               |
-| P     | Pause                    |
-| R     | Restart                  |
+| Key | Action |
+|---|---|
+| `←` | Move Left |
+| `→` | Move Right |
+| `↓` | Soft Drop |
+| `↑` | Rotate |
+| `Z` | Rotate Counter-Clockwise |
+| `SPACE` | Hard Drop |
+| `C` | Hold Piece |
+| `P` | Pause |
+| `R` | Restart |
 
-## 🏆 Difficulty
+---
 
-The game contains **10 levels**, progressively increasing the challenge.
+## 🏆 Scoring
 
-As levels increase:
+Clear lines to earn points and increase your level.
 
-* Pieces fall faster
-* Garbage rows are introduced
-* Garbage begins rising
-* Ghost piece becomes unavailable
-* Hold becomes unavailable
-* The final levels become significantly faster
+| Lines Cleared | Result |
+|---|---|
+| 1 | Single |
+| 2 | Double |
+| 3 | Triple |
+| 4 | Tetris |
 
-## 💾 Progress
+The game gets faster as your level increases.
 
-Your unlocked levels and best scores are saved automatically in your browser using `localStorage`.
+---
 
-Clearing browser storage may reset your progress.
+## 🚀 Tech Stack
 
-## 🛠️ Built With
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **HTML5 Canvas**
+- **LocalStorage**
 
-* HTML5
-* CSS3
-* Vanilla JavaScript
-* HTML5 Canvas
-* Browser Local Storage
+No frameworks.  
+No libraries.  
+No backend.
 
-No libraries. No frameworks. Just JavaScript doing JavaScript things.
+Just vanilla web tech doing its thing. ⚡
 
-## 🚀 Run Locally
+---
+
+## 💻 Run Locally
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-```
-
-Open the project folder and launch `index.html` in a modern browser.
-
-For development, you can also use VS Code's **Live Server** extension.
-
-## 🌐 Play Online
-
-Once GitHub Pages is enabled, the game will be available at:
-
-```text
-https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/
-```
-
-## 📜 License
-
-This project is available for personal and educational use.
+git clone https://github.com/tan-xo/TETRIS-FINAL-BOSS.git
